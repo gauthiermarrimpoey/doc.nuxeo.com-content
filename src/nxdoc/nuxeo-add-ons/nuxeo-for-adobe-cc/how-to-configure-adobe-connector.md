@@ -19,20 +19,22 @@ The Nuxeo for Adobe CC connector comes with 3 tabs: Search, Browse and Other. Th
 
 ## Prerequisites
 
-- Nuxeo Web UI, Nuxeo DAM, Nuxeo for Adobe CC
-- **External Templates** > **Default Adobe CC Connector Configuration**
-  Once the template installed 5 new page providers appear on your Studio project:
-    - adobe-connector-all-images
-    - adobe-connector-browse
-    - adobe-connector-other_primary
-    - adobe-connector-other_secondary
-    - adobe-connector-search
+- Nuxeo Web UI
+- Nuxeo DAM
+- Nuxeo for Adobe CC
+- **External Templates** > **Default Adobe CC Connector Configuration**</br>
+  Once the template installed, 5 new page providers appear on your Studio project:
+    - `adobe-connector-all-images`
+    - `adobe-connector-browse`
+    - `adobe-connector-other_primary`
+    - `adobe-connector-other_secondary`
+    - `adobe-connector-search`
 
 ## Search Tab
 
 By default the Search tab is configured to search all pictures. But it's possible to customize it to only search specific document, videos, etc.
 
-Let's say that you only want to display   customize it to display only our custom document type:
+Let's say that you only want to customize it to display only your custom document type, to do so: 
 
 1. On Studio Modeler, go to **Page Providers** > **adobe-connector-all-images**
 1. In "Query Filter":
